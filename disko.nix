@@ -27,7 +27,7 @@
                 type = "luks";
                 name = "crypted";
                 extraOpenArgs = [ ];
-                passwordFile = "/tmp/secret.key"
+                passwordFile = "/tmp/secret.key";
                 # additionalKeyFiles = [ "/tmp/additionalSecret.key" ];
                 content = {
                   type = "lvm_pv";
