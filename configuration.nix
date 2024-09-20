@@ -70,6 +70,7 @@
   #     tree
   #   ];
   # };
+  users.users.root.initialPassword = "password";
 
   # List packages installed in system profile. To search, run:
   # $ nix search wget
