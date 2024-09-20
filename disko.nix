@@ -44,15 +44,15 @@
         type = "lvm_vg";
         lvs = {
           swap = {
-              size = "8G";
-              content = {
-                type = "swap";
-                discardPolicy = "both";
-                resumeDevice = true; # resume from hiberation from this device
-              };
+            size = "8G";
+            content = {
+              type = "swap";
+              discardPolicy = "both";
+              resumeDevice = true; # resume from hiberation from this device
             };
+          };
           root = {
-            size = "100%";
+            size = "100%FREE";
             content = {
               type = "filesystem";
               format = "ext4";
