@@ -43,7 +43,7 @@
         type = "lvm_vg";
         lvs = {
           swap = {
-            size = "8G";
+            size = "80G"; # on hibernate the entire RAM gets written to disk
             content = {
               type = "swap";
               discardPolicy = "both";
